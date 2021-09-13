@@ -1,0 +1,10 @@
+<svg id="Icon2" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <circle id="Oval_Copy_2" data-name="Oval Copy 2" cx="28" cy="28" r="28" fill="#0ed7a0"/>
+  <g id="Group_105" data-name="Group 105" transform="translate(11 8)">
+    <path id="layer1" d="M2,8H32v6H2Zm0,6V32H32V14" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="layer2" d="M32,32H30l-3-3-3,6-5-7-5,9-2-5H10" transform="translate(-4 -10)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <circle id="layer1-2" data-name="layer1" cx="0.5" cy="0.5" r="0.5" transform="translate(4.5 10.5)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <circle id="layer1-3" data-name="layer1" cx="0.5" cy="0.5" r="0.5" transform="translate(8 10.5)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    <circle id="layer1-4" data-name="layer1" cx="0.5" cy="0.5" r="0.5" transform="translate(11.5 10.5)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

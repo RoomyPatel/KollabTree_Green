@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_131" data-name="Group 131" transform="translate(-1210 -1366)">
+    <g id="Icon" transform="translate(960 -167)">
+      <rect id="Rectangle_41" data-name="Rectangle 41" width="60" height="60" rx="4" transform="translate(250 1533)" fill="#0ed7a0"/>
+    </g>
+    <g id="Group_85" data-name="Group 85" transform="translate(1221 1377)">
+      <circle id="layer2" cx="17" cy="17" r="17" transform="translate(2 2)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="layer1" d="M34.133,40.77A10.483,10.483,0,0,1,16,40.6" transform="translate(-6.067 -16.727)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle id="layer1-2" data-name="layer1" cx="1.133" cy="1.133" r="1.133" transform="translate(12.2 14.467)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      <circle id="layer1-3" data-name="layer1" cx="1.133" cy="1.133" r="1.133" transform="translate(23.533 14.467)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

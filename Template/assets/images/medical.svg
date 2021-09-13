@@ -1,0 +1,9 @@
+<svg id="Icon4" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <circle id="Oval_Copy_2" data-name="Oval Copy 2" cx="28" cy="28" r="28" fill="#0ed7a0"/>
+  <g id="Group_107" data-name="Group 107" transform="translate(11 11)">
+    <path id="layer2" d="M18,2V32H40V9L33,2Z" transform="translate(-8)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="layer2-2" data-name="layer2" d="M37,2V9h7M26,14H40V29H26Zm5,0V29M26,19H40M26,24H40M32,7H30V5H28V7H26V9h2v2h2V9h2Z" transform="translate(-12)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="layer1" d="M4.8,29.972,3.55,32.893a.05.05,0,0,1-.092,0L2.2,29.972a2.5,2.5,0,0,1-.2-.985V5.5a1.5,1.5,0,0,1,3,0V28.987A2.5,2.5,0,0,1,4.8,29.972Z" transform="translate(0 -1)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="layer1-2" data-name="layer1" d="M2,9H6a1,1,0,0,1,1,1v7M2,30.5H5" transform="translate(0 -3.5)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+  </g>
+</svg>

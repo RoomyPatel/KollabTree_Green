@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="54" viewBox="0 0 60 54">
+  <g id="Group_94" data-name="Group 94" transform="translate(-46.523 -273.277)">
+    <g id="pay-per-click" transform="translate(46.523 273.277)">
+      <path id="Path_1" data-name="Path 1" d="M94.523,363.52v3.525l1.5,2.25h57l1.5-2.25V363.52Z" transform="translate(-94.523 -315.295)" fill="#055360"/>
+      <path id="Path_2" data-name="Path 2" d="M163.978,155.052h-48.3a2.21,2.21,0,0,1-2.25-2.25V112.527a2.21,2.21,0,0,1,2.25-2.25H163.9a2.21,2.21,0,0,1,2.25,2.25V152.8A2.193,2.193,0,0,1,163.978,155.052Z" transform="translate(-109.828 -110.277)" fill="#055360"/>
+      <rect id="Rectangle_1" data-name="Rectangle 1" width="45.225" height="37.275" transform="translate(7.35 3.75)" fill="#fff"/>
+      <rect id="Rectangle_2" data-name="Rectangle 2" width="10.5" height="1.5" transform="translate(24.75 49.65)" fill="#e5edef"/>
+      <rect id="Rectangle_3" data-name="Rectangle 3" width="35.991" height="12.464" rx="6.232" transform="translate(12 15)" fill="#0ed7a0"/>
+      <path id="Path_5" data-name="Path 5" d="M287.523,244.315l-13.8-5.25,5.25,13.725,2.325-4.05,2.7,2.775,2.175-2.175-2.7-2.775Z" transform="translate(-238.698 -211.84)" fill="#324a5e"/>
+    </g>
+    <text id="Free" transform="translate(66.523 297.277)" fill="#055360" font-size="7" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.128em"><tspan x="0" y="0">FREE</tspan></text>
+  </g>
+</svg>

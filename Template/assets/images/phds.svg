@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <g id="Group_135" data-name="Group 135" transform="translate(-331 -1366)">
+    <g id="Icon" transform="translate(81 -167)">
+      <rect id="Rectangle_41" data-name="Rectangle 41" width="60" height="60" rx="4" transform="translate(250 1533)" fill="#0ed7a0"/>
+    </g>
+    <g id="Group_82" data-name="Group 82" transform="translate(341.314 1375.347)">
+      <path id="layer2" d="M36.395,58.964a.292.292,0,0,0,.247-.143.306.306,0,0,0,.013-.29A4.338,4.338,0,0,0,32.734,56H6.638a4.338,4.338,0,0,0-3.921,2.531.306.306,0,0,0,.013.29.292.292,0,0,0,.247.143Z" transform="translate(0 -21.311)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      <ellipse id="layer2-2" data-name="layer2" cx="3.48" cy="3.557" rx="3.48" ry="3.557" transform="translate(5.768 23.424)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="layer2-3" data-name="layer2" d="M15.239,31.4a7.8,7.8,0,0,1,2.875-7.871m11.171,9.75a7.456,7.456,0,0,1-13.048.579m-2.564,3.439a11.462,11.462,0,0,0,11.164,4.062,11.7,11.7,0,0,0,8.829-8.08M15.224,20.566A11.939,11.939,0,0,0,11,29.717q0,.528.044,1.043M11,36.947v4.627" transform="translate(-3.493 -6.885)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="layer1" d="M31,42H47.238" transform="translate(-11.894 -15.611)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+      <path id="layer1-2" data-name="layer1" d="M1.932-.021,4.94-.055a1.881,1.881,0,0,1,1.91,1.91L6.716,14.028a1.984,1.984,0,0,1-1.953,1.953l-3.009.033A1.881,1.881,0,0,1-.156,14.1L-.021,1.932A1.984,1.984,0,0,1,1.932-.021Z" transform="translate(8.196 10.07) rotate(-45)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-width="1.5"/>
+      <path id="layer1-3" data-name="layer1" d="M15.194,5.916,13.064,3.74a.286.286,0,0,0-.41,0L9.739,6.721a.3.3,0,0,0,0,.419l2.13,2.177" transform="translate(-2.927)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,9 @@
+<svg id="Icon7" xmlns="http://www.w3.org/2000/svg" width="56" height="56" viewBox="0 0 56 56">
+  <circle id="Oval_Copy_2" data-name="Oval Copy 2" cx="28" cy="28" r="28" fill="#0ed7a0"/>
+  <g id="Group_110" data-name="Group 110" transform="translate(9.097 11)">
+    <path id="layer1" d="M21.417,19.28C14.374,15.24,7.539,13.9,6.153,16.291s3.2,7.6,10.238,11.642,13.876,5.378,15.262,2.988S28.46,23.32,21.417,19.28Z" transform="translate(-0.001 -6.553)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <circle id="layer2" cx="2" cy="2" r="2" transform="translate(16.952 15)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="layer2-2" data-name="layer2" d="M14.618,31.039a38.522,38.522,0,0,0,6.8-3.108c7.043-4.04,11.626-9.25,10.238-11.641-.916-1.576-4.2-1.531-8.356-.156m-1.857.68a40.607,40.607,0,0,0-5.055,2.465C9.345,23.319,4.762,28.531,6.152,30.92c.8,1.374,3.4,1.516,6.8.619" transform="translate(0 -6.552)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+    <path id="layer1-2" data-name="layer1" d="M22.089,14.175C22.529,7.241,24.561,2,27,2c2.761,0,5,6.715,5,15,0,.967-.031,1.923-.092,2.877m-.2,2.149C31.024,27.838,29.174,32,27,32c-2.761,0-5-6.715-5-15" transform="translate(-8.048)" fill="none" stroke="#00333b" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="1.5"/>
+  </g>
+</svg>
