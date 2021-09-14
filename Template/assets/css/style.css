@@ -81,9 +81,19 @@
         margin-top: -16px;
     }
     #bgdarksea .bg-img{
-        background-image: url('../images/bgdarksea.svg');
-        background-repeat: no-repeat;
-        background-size: contain;
+        position:relative;
+    }
+    #bgdarksea .bg-img:before {
+        position: absolute;
+        content: '';
+        left: -170px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 220px;
+        height: 500px;
+        background: url(../images/bgdarksea.svg) no-repeat;
+        transform: rotateY(180deg);
     }
     .freelance h1{
         font-size: 38px;
@@ -176,10 +186,17 @@
         color: #00333b;
         padding-bottom: 50px;
     }
+    #how-it-works .card:hover{
+        box-shadow:  5px 5px 10px 0 rgba(0, 0, 0, 0.4); 
+        background-color: #0ed7a0 ;
+    }
+    #how-it-works .project .one{
+        margin-top: -50px;
+    }
     #how-it-works .project .bg-img{
         background: #dbf9f1;
         width: 80px;
-        margin-top: 30px;
+        margin-top: -30px;
         margin-left: auto;
         margin-right: auto;
         width: 80px;
@@ -209,10 +226,13 @@
         color: #00333b;
         margin-bottom: -5px;
     }
+    #how-it-works .network .two{
+        margin-top: -50px;
+    }
     #how-it-works .network .bg-img{
         background: #dbf9f1;
         width: 80px;
-        margin-top: 30px;
+        margin-top: -30px;
         margin-left: auto;
         margin-right: auto;
         width: 80px;
@@ -242,10 +262,13 @@
         color: #00333b;
         margin-bottom: -5px;
     }
+    #how-it-works .handshake .three{
+        margin-top: -50px;
+    }
     #how-it-works .handshake .bg-img{
         background: #dbf9f1;
         width: 80px;
-        margin-top: 30px;
+        margin-top: -30px;
         margin-left: auto;
         margin-right: auto;
         width: 80px;
@@ -274,12 +297,14 @@
         font-weight: 400;
         color: #00333b;
         margin-bottom: -5px;
-
+    }
+    #how-it-works .completedtask .four{
+        margin-top: -50px;
     }
     #how-it-works .completedtask .bg-img{
         background: #dbf9f1;
         width: 80px;
-        margin-top: 30px;
+        margin-top: -30px;
         margin-left: auto;
         margin-right: auto;
         width: 80px;
@@ -446,6 +471,55 @@
     
     /* Institutions Section End */
 
+    /* News Section Start  */
+    #news{
+        margin-bottom: 100px;
+    }
+    #news h6{
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #00333b;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #news .card{
+        width: 262px;
+        height: 225px;
+    }
+    #news .card p{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #00333b;
+        padding-top: 30px;
+    }
+    #news .card footer{
+        background: #E5EDEF;
+    }
+
+    #news .card .forbes{
+        width: 103.75px;
+        height: 30px;
+        margin-top: 57px;
+    }
+    #news .card .entrepreneur{
+        width: 150px;
+        height: 30px;
+        margin-top: 60px;
+    }
+    #news .card .engineer{
+        width: 193px;
+        height: 25px;
+        margin-top: 84px;
+    }
+    #news .card .nature{
+        width: 128.28px;
+        height: 30px;
+        margin-top: 80px;
+    }
+    /* News Section End */
+
     /* Services Section Start  */
     #services{
         background: #E5EDEF;
@@ -464,6 +538,13 @@
         font-weight: 400;
         color: #00333b;
         padding-bottom: 25px;
+    }
+    #services .card:hover{
+        box-shadow:  5px 5px 10px 0 rgba(0, 0, 0, 0.4); 
+        background: #055360;
+    }
+    #services .card:hover p{
+        color: #0ed7a0;
     }
     #services .datascience{
         width: 262px;
@@ -834,7 +915,7 @@
         padding-left: 10px;
     }
     /* Logo Section End */
-
+    
     /* Institutions Section Start */
     #institutions .institutions-list .imperial{
         margin-top: 30px;
