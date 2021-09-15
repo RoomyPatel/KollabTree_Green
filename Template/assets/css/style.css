@@ -86,7 +86,7 @@
     #bgdarksea .bg-img:before {
         position: absolute;
         content: '';
-        left: -170px;
+        left: -150px;
         top: 0;
         bottom: 0;
         margin: auto;
@@ -188,7 +188,7 @@
     }
     #how-it-works .card:hover{
         box-shadow:  5px 5px 10px 0 rgba(0, 0, 0, 0.4); 
-        background-color: #0ed7a0 ;
+        background-color: rgba(50, 250, 150, 50%);
     }
     #how-it-works .project .one{
         margin-top: -50px;
@@ -471,21 +471,176 @@
     
     /* Institutions Section End */
 
+    /* Customers Section Start  */
+    #customers{
+        background: #055360;
+        padding-top: 50px;
+    }
+    #customers h1{
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    #customers p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+        padding-bottom: 15px;
+    }
+    #customers .feedback{
+        padding-bottom: 50px;
+        padding-left: 190px;
+    }
+    #customers .feedback {
+        position:relative;
+    }
+    #customers .feedback :before {
+        position: absolute;
+        content: '';
+        left: -300px;
+        top: 100px;
+        bottom: -100px;
+        margin: auto;
+        width: 220px;
+        height: 500px;
+        background: url(../images/bgdarksea.svg) no-repeat;
+        transform: rotateY(170deg);
+    }
+    #customers .feedback .icon{
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #customers .feedback .card{
+        width: 400px;
+        height: 285px;
+    }
+    #customers .feedback .card h6{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: #00333b;
+    }
+    #customers .feedback .card p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #00333b;
+        padding-top: 20px;
+    }
+    #customers .tabs{
+        padding-bottom: 50px;
+        padding-left: 60px;
+    }
+    #customers .tabs {
+        position:relative;
+    }
+    #customers .tabs:before {
+        position: absolute;
+        content: '';
+        left: 465px;
+        top: 0;
+        bottom: 200px;
+        margin: auto;
+        width: 220px;
+        height: 500px;
+        background: url(../images/bgdarksea.svg) no-repeat;
+        transform: rotateY(360deg);
+    }
+    #customers .tabs .card-body{
+        padding: 0px 0px;
+    }
+    #customers .tabs .d-flex:hover{
+        background-color: rgba(50, 250, 150, 50%);
+    }
+    #customers .tabs .card{
+        width: 291px;
+        height: 285px;
+    }
+    #customers .tabs .avatar{
+        width: 60px;
+        height: 50px;
+        padding-left: 5px;
+    }
+    #customers .tabs .userdetails{
+        text-align: start;
+        padding-left: 15px;
+    }
+    #customers .tabs .userdetails h5{
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #00333b;
+    }
+    #customers .tabs .userdetails h6{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #00333b;
+    }
+    #customers .tabs .avatar1{
+        width: 90px;
+        height: 50px;
+        padding-left: 3px;
+    }
+    #customers .tabs .userdetails1{
+        text-align: start;
+        padding-left: 15px;
+    }
+    #customers .tabs .userdetails1 h5{
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #00333b;
+    }
+    #customers .tabs .userdetails1 h6{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #00333b;
+    }
+    #customers .tabs .avatar2{
+        width: 80px;
+        height: 50px;
+        padding-left: 3px;
+    }
+    #customers .tabs .userdetails2{
+        text-align: start;
+        padding-left: 15px;
+    }
+    #customers .tabs .userdetails2 h5{
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #00333b;
+    }
+    #customers .tabs .userdetails2 h6{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: #00333b;
+    }
+    /* Customers Section End */
+
     /* News Section Start  */
     #news{
-        margin-bottom: 100px;
+        padding-top: 50px;
+        padding-bottom: 100px;
+        background: #ffffff;
     }
     #news h6{
         font-family: 'Roboto', sans-serif;
         font-size: 36px;
         font-weight: 700;
         color: #00333b;
-        margin-top: 50px;
         margin-bottom: 50px;
     }
     #news .card{
         width: 262px;
         height: 225px;
+        padding: 0px 0px;
+        margin: 0px 0px;
     }
     #news .card p{
         font-family: 'Times New Roman', Times, serif;
@@ -494,29 +649,42 @@
         color: #00333b;
         padding-top: 30px;
     }
-    #news .card footer{
-        background: #E5EDEF;
+    #news .card .communicate{
+        padding-bottom: 34px;
     }
-
+    #news .card .economy{
+        padding-bottom: 34px;
+    }
+    #news .card:hover{
+        cursor: pointer;
+    }
+    #news .card:hover .card-body{
+        background-color: rgba(50, 250, 150, 50%);
+        box-shadow:  5px 5px 10px 0 rgba(0, 0, 0, 0.1); 
+    }
+    #news .card:hover .card-footer{
+        background-color: #ffffff;
+        box-shadow:  5px 5px 10px 0 rgba(0, 0, 0, 0.1); 
+    }
     #news .card .forbes{
         width: 103.75px;
         height: 30px;
-        margin-top: 57px;
+        margin-top: 20px;
     }
     #news .card .entrepreneur{
         width: 150px;
         height: 30px;
-        margin-top: 60px;
+        margin-top: 21px;
     }
     #news .card .engineer{
         width: 193px;
         height: 25px;
-        margin-top: 84px;
+        margin-top: 27px;
     }
     #news .card .nature{
         width: 128.28px;
         height: 30px;
-        margin-top: 80px;
+        margin-top: 23px;
     }
     /* News Section End */
 
@@ -524,7 +692,7 @@
     #services{
         background: #E5EDEF;
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 100px;
     }
     #services h6{
         font-family: 'Roboto', sans-serif;
@@ -894,6 +1062,10 @@
     #bgdarksea {
        padding-top: 30px;
     }
+    #bgdarksea .bg-img:before {
+        left: -30px;
+        bottom: 100px;
+     }
     .imgscientists{
         margin-left: -33px;
         margin-bottom: 15px;
@@ -915,7 +1087,13 @@
         padding-left: 10px;
     }
     /* Logo Section End */
-    
+
+    /* How It Works Section Start */
+    #how-it-works .card{
+        margin-bottom: 40px;
+    }
+    /* How It Works Section Start */
+
     /* Institutions Section Start */
     #institutions .institutions-list .imperial{
         margin-top: 30px;
@@ -949,8 +1127,37 @@
     }
     /* Institutions Section End */
 
-    
-    /* Services Section Start  */
+    /* News Section Start  */
+    #news .card{
+        margin: 20px 0px;
+    }
+    /* News Section End */
+
+    /* Services Section Start */
+    #services .datascience{
+        margin-bottom: 40px;
+    }
+    #services .consulting{
+        margin-bottom: 40px;
+    }
+    #services .analysis{
+        margin-bottom: 40px;
+    }
+    #services .food{
+        margin-bottom: 40px;
+    }
+    #services .medical{
+        margin-bottom: 40px;
+    }
+    #services .research{
+        margin-bottom: 40px;
+    }
+    #services .scientific{
+        margin-bottom: 40px;
+    }
+    #services .secondary{
+        margin-bottom: 40px;
+    }
     #services .search{
         margin-left: 0px;
         margin-left: auto;
@@ -1091,6 +1298,11 @@
         padding-left: 24px;
         padding-top: 25px;
      }
+     
+     #bgdarksea .bg-img:before {
+        left: -30px;
+        bottom: 100px;
+     }
      .imgscientists{
         margin-left: -25px; 
         margin-bottom: 15px;
@@ -1119,6 +1331,9 @@
     /* How It Works Section Start */
     #how-it-works{
         width: 591px;
+    }
+    #how-it-works .card{
+        margin-bottom: 40px;
     }
     /* How It Works Section End */
 
@@ -1170,9 +1385,42 @@
     }
     /* Institutions Section End */
 
+    /* News Section Start  */
+    #news{
+        width: 591px;
+    }
+    #news .card{
+        margin: 20px 0px;
+    }
+    /* News Section End */
+
     /* Services Section Start  */
     #services{
         width: 591px;
+    }
+    #services .datascience{
+        margin-bottom: 40px;
+    }
+    #services .consulting{
+        margin-bottom: 40px;
+    }
+    #services .analysis{
+        margin-bottom: 40px;
+    }
+    #services .food{
+        margin-bottom: 40px;
+    }
+    #services .medical{
+        margin-bottom: 40px;
+    }
+    #services .research{
+        margin-bottom: 40px;
+    }
+    #services .scientific{
+        margin-bottom: 40px;
+    }
+    #services .secondary{
+        margin-bottom: 40px;
     }
     #services .search{
         margin-left: 0px;
