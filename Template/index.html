@@ -84,22 +84,28 @@
 
     <!-- Home Page Section Start  -->
     <section id="bglightsea">
-        <ul class="listyle">
-            <li><a href="#">Data Science & Statistics</a></li>
-            <li><a href="#">Scientific consulting</a></li>
-            <li><a href="#">Statistical analysis expert</a></li>
-            <li><a href="#">Scientific writing</a></li>
-            <li><a href="#">Secondary research</a></li>
-            <li class="dropdown">
-                <a class="dropdown-toggle" data-toggle="dropdown" href="#">More
-                    <b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                    <li><a href="#">Scientists</a></li>
-                    <li><a href="#">Researchers</a></li>
-                    <li><a href="#">Experts</a></li>
-                </ul>
-            </li>
-        </ul>
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                    <ul class="listyle">
+                        <li><a href="#">Data Science & Statistics</a></li>
+                        <li><a href="#">Scientific consulting</a></li>
+                        <li><a href="#">Statistical analysis expert</a></li>
+                        <li><a href="#">Scientific writing</a></li>
+                        <li><a href="#">Secondary research</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">More
+                                <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Scientists</a></li>
+                                <li><a href="#">Researchers</a></li>
+                                <li><a href="#">Experts</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="bgdarksea">
@@ -117,7 +123,7 @@
                                 worldwide.
                             </p>
                         </div>
-                        <div class="col-8 col-md-10 col-lg-10">
+                        <div class="col-11 col-md-7 col-lg-10">
                             <form class="card card-sm">
                                 <div class="card-body row align-items-center">
                                     <div class="col">
@@ -378,64 +384,104 @@
             through Kolabtree</p>
         <div class="container">
             <div class="row">
-                <div class="feedback col-lg-6">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="icon">
-                                <img src="./assets/images/icon.svg" class="img-fluid" alt="icon">
+                <div id="Amberly" class="tabcontent col-lg-6 col-sm-12">
+                    <div class="feedback">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <img src="./assets/images/icon.svg" class="img-fluid" alt="icon">
+                                </div>
+                                <h6>
+                                    I contracted with a best<br>
+                                    frontend team that created website<br>
+                                    for me in responsive and also<br>
+                                    done unique and creative work.
+                                </h6>
+                                <p><u style="color: #00333b;">READ FULL STORY</u></p>
                             </div>
-                            <h6>
-                                I contracted with a brilliant<br>
-                                biostatistician and his team that not<br>
-                                only completed my project before<br>
-                                my deadline but also enhanced my<br>
-                                analysis with their insights.
-                            </h6>
-                            <p><u style="color: #00333b;">READ FULL STORY</u></p>
                         </div>
                     </div>
                 </div>
-                <div class="tabs col-lg-6">
+                <div id="Steven" class="tabcontent col-lg-6 col-sm-12" style="display:none">
+                    <div class="feedback">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <img src="./assets/images/icon.svg" class="img-fluid" alt="icon">
+                                </div>
+                                <h6>
+                                    I contracted with a brilliant<br>
+                                    biostatistician and his team that not<br>
+                                    only completed my project before<br>
+                                    my deadline but also enhanced my<br>
+                                    analysis with their insights.
+                                </h6>
+                                <p><u style="color: #00333b;">READ FULL STORY</u></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Ian" class="tabcontent col-lg-6 col-sm-12" style="display: none;">
+                    <div class="feedback">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="icon">
+                                    <img src="./assets/images/icon.svg" class="img-fluid" alt="icon">
+                                </div>
+                                <h6>
+                                    It was great experience with<br>
+                                    backend team that had completed<br>
+                                    website before deadline and<br>
+                                    also done it without bugs.
+                                </h6>
+                                <p><u style="color: #00333b;">READ FULL STORY</u></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tabs col-lg-6 col-sm-12">
                     <div class="card">
                         <div class="card-body">
-                            <div class="d-flex mt-3 py-2">
-                                
-                                <div class="avatar">
-                                    <img src="./assets/images/avatar.svg" class="img-fluid" alt="avatar">
+                            <div class="tab">
+                                <div class="d-flex mt-3 py-2" onclick="openFeed(event, 'Amberly')">
+                                    <div class="avatar">
+                                        <img src="./assets/images/avatar.svg" class="img-fluid" alt="avatar">
+                                    </div>
+                                    <div class="userdetails">
+                                        <h5>Amberly Higgins</h5>
+                                        <h6>Co-founder and CEO,
+                                            Allele
+                                        </h6>
+                                    </div>
                                 </div>
-                                <div class="userdetails">
-                                    <h5>Amberly Higgins</h5>
-                                    <h6>Co-founder and CEO,
-                                        Allele
-                                    </h6>
-                                </div>
-
                             </div>
-                            <div class="d-flex mt-2 py-2">
+                            <div class="tab">
+                                <div class="d-flex mt-2 py-2" onclick="openFeed(event, 'Steven')">
+                                    <div class="avatar1">
+                                        <img src="./assets/images/avatar1.svg" class="img-fluid" alt="avatar1">
+                                    </div>
+                                    <div class="userdetails1">
+                                        <h5>Steven George</h5>
+                                        <h6>Co-founder,
+                                            Center for Medicine in the Public Interest
+                                        </h6>
+                                    </div>
 
-                                <div class="avatar1">
-                                    <img src="./assets/images/avatar1.svg" class="img-fluid" alt="avatar1">
                                 </div>
-                                <div class="userdetails1">
-                                    <h5>Steven George</h5>
-                                    <h6>Co-founder,
-                                        Center for Medicine in the Public Interest
-                                    </h6>
-                                </div>
-
                             </div>
-                            <div class="d-flex mt-2 py-2">
+                            <div class="tab">
+                                <div class="d-flex mt-2 py-2" onclick="openFeed(event, 'Ian')">
+                                    <div class="avatar2">
+                                        <img src="./assets/images/avatar2.svg" class="img-fluid" alt="avatar2">
+                                    </div>
+                                    <div class="userdetails2">
+                                        <h5>Ian Mulvany</h5>
+                                        <h6>Head of Product Innovation,
+                                            Sage Publications
+                                        </h6>
+                                    </div>
 
-                                <div class="avatar2">
-                                    <img src="./assets/images/avatar2.svg" class="img-fluid" alt="avatar2">
                                 </div>
-                                <div class="userdetails2">
-                                    <h5>Ian Mulvany</h5>
-                                    <h6>Head of Product Innovation,
-                                        Sage Publications
-                                    </h6>
-                                </div>
-
                             </div>
                         </div>
                     </div>
@@ -593,6 +639,62 @@
 
         </section>
         <!-- Services Section End  -->
+
+        <!-- Freelancer Section Start  -->
+        <section id="freelancer">
+            <div class="container text-start">
+                <div class="row">
+                    <div class="col-lg-9 col-sm-12">
+                        <div class="details mt-4">
+                            <h6>Want to become a Kolabtree freelancer?</h6>
+                            <p>It's free to register and start working on high-impact projects from clients worldwide.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <div class="service my-lg-4 my-sm-2">
+                            <button class="btn btngreen" type="submit">Request a Service</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Freelancer Section End -->
+
+        <!-- Footer Section Start  -->
+        <footer id="footer">
+
+            <div class="moredetails">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <div class="service my-3">
+                                <button class="btn btngreen" type="submit">Request a Service</button>
+                            </div>
+                            <div class="expert my-3">
+                                <button class="btn btngreen" type="submit">Become an Expert</button>
+                            </div>
+                            <div class="friend my-3">
+                                <button class="btn btngreen" type="submit">Refer a Friend</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-3">
+
+                        </div>
+                        <div class="col-lg-3">
+
+                        </div>
+                        <div class="col-lg-3">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+        <!-- Footer Section End -->
 
         <!-- Optional JavaScript -->
         <script src="./assets/js/jquery.js"></script>

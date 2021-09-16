@@ -55,7 +55,8 @@
         font-family: 'Roboto', sans-serif;
         font-size: 14px;
         font-weight: 400;
-        margin-left: 86px;
+        margin-left: 0px;
+        padding-left: 0px;
     }
     .listyle li{
         list-style-type: none;
@@ -499,13 +500,14 @@
     #customers .feedback :before {
         position: absolute;
         content: '';
-        left: -300px;
+        left: -340px;
         top: 100px;
         bottom: -100px;
         margin: auto;
         width: 220px;
         height: 500px;
         background: url(../images/bgdarksea.svg) no-repeat;
+        opacity: 0.2;
         transform: rotateY(170deg);
     }
     #customers .feedback .icon{
@@ -533,21 +535,6 @@
         padding-bottom: 50px;
         padding-left: 60px;
     }
-    #customers .tabs {
-        position:relative;
-    }
-    #customers .tabs:before {
-        position: absolute;
-        content: '';
-        left: 465px;
-        top: 0;
-        bottom: 200px;
-        margin: auto;
-        width: 220px;
-        height: 500px;
-        background: url(../images/bgdarksea.svg) no-repeat;
-        transform: rotateY(360deg);
-    }
     #customers .tabs .card-body{
         padding: 0px 0px;
     }
@@ -565,7 +552,7 @@
     }
     #customers .tabs .userdetails{
         text-align: start;
-        padding-left: 15px;
+        padding-left: 10px;
     }
     #customers .tabs .userdetails h5{
         font-family: 'Roboto', sans-serif;
@@ -586,7 +573,7 @@
     }
     #customers .tabs .userdetails1{
         text-align: start;
-        padding-left: 15px;
+        padding-left: 10px;
     }
     #customers .tabs .userdetails1 h5{
         font-family: 'Roboto', sans-serif;
@@ -607,7 +594,7 @@
     }
     #customers .tabs .userdetails2{
         text-align: start;
-        padding-left: 15px;
+        padding-left: 10px;
     }
     #customers .tabs .userdetails2 h5{
         font-family: 'Roboto', sans-serif;
@@ -647,13 +634,13 @@
         font-size: 18px;
         font-weight: 700;
         color: #00333b;
-        padding-top: 30px;
+        padding-top: 40px;
     }
     #news .card .communicate{
-        padding-bottom: 34px;
+        padding-top: 20px;
     }
     #news .card .economy{
-        padding-bottom: 34px;
+        padding-top: 20px;
     }
     #news .card:hover{
         cursor: pointer;
@@ -671,20 +658,32 @@
         height: 30px;
         margin-top: 20px;
     }
+    #news .card .forbes img{
+        margin-top: -20px;
+    }
     #news .card .entrepreneur{
         width: 150px;
         height: 30px;
         margin-top: 21px;
+    }
+    #news .card .entrepreneur img{
+        margin-top: -19px;
     }
     #news .card .engineer{
         width: 193px;
         height: 25px;
         margin-top: 27px;
     }
+    #news .card .engineer img{
+        margin-top: -25px;
+    }
     #news .card .nature{
         width: 128.28px;
         height: 30px;
         margin-top: 23px;
+    }
+    #news .card .nature img{
+        margin-top: -23px;
     }
     /* News Section End */
 
@@ -936,6 +935,50 @@
         padding-bottom: 30px;
     }
     /* Services Section End */
+
+    /* Freelancer Section Start  */
+    #freelancer{
+        background-color: #ffffff;
+        background-image: url(../images/grey.svg);
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #freelancer .container{
+        background: #055360;
+    }
+    #freelancer .details{
+        padding-left: 50px;
+    }
+    #freelancer h6{
+        font-family: 'Roboto', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    #freelancer p{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    #freelancer .service{
+        padding-top: 15px;
+        padding-left: 50px;
+    }
+    /* Freelancer Section End */
+
+    /* Footer Section Start  */
+    #footer .moredetails .service{
+        margin-left: 0px;
+    }
+    #footer .moredetails .expert{
+        margin-left: 0px;
+    }
+    #footer .moredetails .friend{
+        margin-left: 0px;
+    }
+    /* Footer Section End */
+
 }
 
 
@@ -1043,31 +1086,39 @@
         left: 8px;
     } 
     .dropdown-menu{
-        width: 65%;
+        width: 35%;
+    }
+    .navbar-nav .nav-link{
+        padding-left: 15px;
     }
     .account{
+        padding-left: 15px;
         margin-bottom: 20px;
         margin-top: 10px;
         margin-left: 0px;
+    }
+    .service{
+        padding-left: 15px;
     }
      /* Navigation Section End */
 
      /* Home Page Section Start  */
     .listyle {
-       margin-left: 5px;
+       margin-left: 0px;
+       padding-left: 0px;
     }
     .listyle li{
-        margin-right: 560px;
+        display: block;
     }
     #bgdarksea {
        padding-top: 30px;
     }
     #bgdarksea .bg-img:before {
-        left: -30px;
-        bottom: 100px;
+        left: -75px;
+        top: 80px;
      }
     .imgscientists{
-        margin-left: -33px;
+        margin-left: 95px;
         margin-bottom: 15px;
      }
      /* Home Page Section End */
@@ -1077,14 +1128,20 @@
         margin-top: 20px;
         margin-bottom: 10px;
     }
+    #logo-list .business{
+        padding-left: 160px;
+    }
     #logo-list .sage{
-        padding-left: 35px;
+        padding-left: 75px;
+    }
+    #logo-list .technology{
+        padding-left: 50px;
     }
     #logo-list .threeB{
-        padding-left: 35px;
+        padding-left: 95px;
     }
     #logo-list .micinsight{
-        padding-left: 10px;
+        padding-left: 85px;
     }
     /* Logo Section End */
 
@@ -1127,6 +1184,18 @@
     }
     /* Institutions Section End */
 
+    /* Customers Section Start  */
+    #customers .feedback{
+        padding-left: 155px;
+    } 
+    #customers .feedback :before{
+        left: -230px;
+        top: 0;
+    }
+    #customers .tabs{
+        padding-left: 210px;
+    }
+    /* Customers Section End */
     /* News Section Start  */
     #news .card{
         margin: 20px 0px;
@@ -1169,6 +1238,13 @@
         margin-right: auto;
     }
     /* Services Section End */
+
+    /* Freelancer Section Start   */
+    #freelancer .service{
+        padding-top: 0px;
+        padding-bottom: 20px; 
+    }
+    /* Freelancer Section End  */
 }
 
 /*mobile view*/
@@ -1276,52 +1352,66 @@
     .dropdown-menu{
         width: 65%;
     }
+    .navbar-nav .nav-link{
+        padding-left: 15px;
+    }
     .account{
+        padding-left: 15px;
         margin-bottom: 20px;
         margin-top: 10px;
         margin-left: 0px;
     }
+    .service{
+        padding-left: 15px;
+    }
     /* Navigation Section End */
 
     /* Home Page Section Start */
-    #bglightsea{
-        width: 591px;
-    } 
     .listyle {
         margin-left: 5px;
+        padding-left: 20px;
      }
      .listyle li{
-         margin-right: 382px;
-     }
+         display: block;
+     }  
      #bgdarksea {
-        width: 591px;
         padding-left: 24px;
         padding-top: 25px;
      }
      
      #bgdarksea .bg-img:before {
-        left: -30px;
-        bottom: 100px;
+        left: -70px;
+        bottom: 25px;
      }
-     .imgscientists{
-        margin-left: -25px; 
-        margin-bottom: 15px;
-        width: 400px;
+     #bgdarksea .freelance h1{
+         font-size: 30px;
+     }
+     #bgdarksea .freelance p{
+         font-size: 14px;
+     }
+     #bgdarksea .imgscientists{
+        padding-right: 15px; 
+        margin-left: 0px;
+        margin-bottom: -70px;
+        width: 300px;
         height: 300px;
      }
     /* Home Page Section End*/
 
     /* Logo Section Start */
+    #logo-list .business{
+        font-size: 21px;
+        padding-left: 26px;
+    }
     #logo-list{
-        width: 591px;
         margin-top: 20px;
         margin-bottom: 10px;
     }
     #logo-list .sage{
-        padding-left: 35px;
+        padding-left: 10px;
     }
     #logo-list .threeB{
-        padding-left: 35px;
+        padding-left: 25px;
     }
     #logo-list .micinsight{
         padding-left: 10px;
@@ -1329,8 +1419,11 @@
     /* Logo Section End */
     
     /* How It Works Section Start */
-    #how-it-works{
-        width: 591px;
+    #how-it-works h6{
+        font-size: 30px;
+    }
+    #how-it-works p{
+        font-size: 14px;
     }
     #how-it-works .card{
         margin-bottom: 40px;
@@ -1338,25 +1431,52 @@
     /* How It Works Section End */
 
     /* Why Kolabtree Section Start */
-    #why-kolabtree{
-        width: 591px;
+    #why-kolabtree h6{
+        font-size: 30px;
+    }
+    #why-kolabtree p{
+        font-size: 14px;
+    }
+    #why-kolabtree .phds h5{
+        font-size: 15px;
+    }
+    #why-kolabtree .phds p{
+        font-size: 11px;
+    }
+    #why-kolabtree .hours h5{
+        font-size: 15px;
+    }
+    #why-kolabtree .hours p{
+        font-size: 11px;
+    }
+    #why-kolabtree .security h5{
+        font-size: 15px;
+    }
+    #why-kolabtree .security p{
+        font-size: 11px;
+    }
+    #why-kolabtree .happy h5{
+        font-size: 15px;
+    }
+    #why-kolabtree .happy p{
+        font-size: 11px;
     }
     /* Why Kolabtree Section End */
 
     /* Experts Section Start  */
-    #experts{
-        width: 591px;
+    #experts h6{
+        font-size: 22px;
     }
     /* Experts Section End  */
 
     /* Institutions Section Start */
-    #institutions{
-        width: 591px;
+    #institutions h6{
+        font-size: 26px;
     }
     #institutions .institutions-list .imperial{
         margin-top: 30px;
         margin-left: 0px;
-        width: 128px;
+        width: 105px;
     }
     #institutions .institutions-list .oxford{
         margin-top: 30px;
@@ -1367,12 +1487,13 @@
     }
     #institutions .institutions-list .ucla{
         margin-top: 30px;
-        margin-right: 90px;
+        margin-right: 30px;
         
     }
     #institutions .institutions-list .yale{
         margin-top: 30px;
-        margin-right: 50px;
+        margin-right: 30px;
+        margin-left: 15px;
     }
     #institutions .institutions-list .barcelona{
         margin-top: 30px;
@@ -1381,13 +1502,47 @@
     #institutions .institutions-list .capetown{
         margin-top: 30px;
         margin-left: auto;
-        margin-right: 30px;
+        margin-right: 15px;
     }
     /* Institutions Section End */
 
+    /* Customers Section Start  */
+    #customers h1{
+        font-size: 30px;
+    }
+    #customers p{
+        font-size: 14px;
+    }
+    #customers .feedback{
+        padding-left: 25px;
+    }
+    #customers .feedback :before {
+        left: -40px;
+        top: 10px;
+    }
+    #customers .feedback .card{
+        width: 289px;
+        height: 285px;
+    }
+    #customers .feedback .card h6{
+        font-size: 15px;
+    }
+    #customers .feedback .card p{
+        font-size: 11px;
+        padding-top: 40px;
+    }
+    #customers .tabs{
+        padding-left: 36px;
+    }
+    /* Customers Section End*/
+
     /* News Section Start  */
     #news{
-        width: 591px;
+        padding-bottom: 50px;
+    }
+    #news h6{
+        font-size: 30px;
+        margin-bottom: 10px;
     }
     #news .card{
         margin: 20px 0px;
@@ -1396,7 +1551,13 @@
 
     /* Services Section Start  */
     #services{
-        width: 591px;
+        padding-bottom: 50px;
+    }
+    #services h6 {
+        font-size: 30px;
+    }
+    #services p{
+        font-size: 15px;
     }
     #services .datascience{
         margin-bottom: 40px;
@@ -1426,6 +1587,7 @@
         margin-left: 0px;
         margin-left: auto;
         margin-right: auto;
+        margin-bottom: 40px;
     }
     #services .editing{
         margin-right: 0px;
@@ -1433,4 +1595,16 @@
         margin-right: auto;
     }
     /* Services Section End */
+   
+    /* Freelancer Section Start   */
+    #freelancer .service{
+        padding-bottom: 25px; 
+    }
+    #services h6{
+        font-size: 30px;
+    }
+    #services p{
+        font-size: 15px;
+    }
+    /* Freelancer Section End  */
 }
