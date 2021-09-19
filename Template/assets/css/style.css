@@ -739,8 +739,9 @@
     #news .card{
         width: 262px;
         height: 225px;
-        padding: 0px 0px;
-        margin: 0px 0px;
+        /* padding: 0px 0px;
+        margin: 0px 0px; */
+        margin-right: 10px;
     }
     #news .card p{
         font-family: 'Times New Roman', Times, serif;
@@ -748,12 +749,14 @@
         font-weight: 700;
         color: #00333b;
         padding-top: 40px;
+        padding-bottom: 50px;
     }
     #news .card .communicate{
         padding-top: 20px;
+        padding-bottom: 7px;
     }
     #news .card .economy{
-        padding-top: 20px;
+        padding-top: 0px;
     }
     #news .card:hover{
         cursor: pointer;
@@ -766,37 +769,30 @@
         background-color: #ffffff;
         box-shadow:  5px 5px 10px 0 rgba(0, 0, 0, 0.1); 
     }
-    #news .card .forbes{
-        width: 103.75px;
-        height: 30px;
-        margin-top: 20px;
-    }
     #news .card .forbes img{
-        margin-top: -20px;
-    }
-    #news .card .entrepreneur{
-        width: 150px;
+        width: 250px;
         height: 30px;
         margin-top: 21px;
+        padding-left: 70px;
     }
     #news .card .entrepreneur img{
-        margin-top: -19px;
-    }
-    #news .card .engineer{
-        width: 193px;
-        height: 25px;
-        margin-top: 27px;
+        width: 250px;
+        height: 30px;
+        margin-top: 22px;
+        padding-left: 65px;
     }
     #news .card .engineer img{
-        margin-top: -25px;
+        width: 250px;
+        height: 25px;
+        margin-top: 24px;
+        padding-left: 60px;
     }
-    #news .card .nature{
-        width: 128.28px;
-        height: 30px;
-        margin-top: 23px;
-    }
+
     #news .card .nature img{
-        margin-top: -23px;
+        width: 250px;
+        height: 30px;
+        margin-top: 18px;
+        padding-left: 65px;
     }
     /* News Section End */
 
@@ -1693,7 +1689,7 @@
         font-size: 34px;
     }
     #news .card{
-        margin: 20px 0px;
+        margin-right: 10px;
     }
     /* News Section End */
 
@@ -1758,6 +1754,8 @@
         padding-bottom: 20px; 
     }
     /* Freelancer Section End  */
+
+    /* Blog Posts Section Start  */
     #posts .blog-posts .slick-dots {
         top: 325px;
         bottom: -20px;
@@ -1798,6 +1796,8 @@
         margin-top: 15px;
         margin-left: 5px;
     }
+    /* Blog Posts Section End  */
+
     /* Footer Section Start  */
     .verticalline {
        border-right: transparent;
@@ -2021,6 +2021,8 @@
         margin-bottom: 40px;
     }
     /* How It Works Section End */
+
+    /* Success Stories Section Start */
     .slick-slide img {
         width: 250px;
         margin-left: 55px;
@@ -2065,6 +2067,8 @@
        padding-bottom: 0px;
        font-size: 8px;
     }
+    /* Success Stories Section End  */
+
     /* Why Kolabtree Section Start */
     #why-kolabtree h6{
         font-size: 30px;
@@ -2172,6 +2176,9 @@
     /* Customers Section End*/
 
     /* News Section Start  */
+    #news ul.slick-dots {
+        top: 255px;
+    }
     #news{
         padding-bottom: 50px;
     }
@@ -2181,6 +2188,19 @@
     }
     #news .card{
         margin: 20px 0px;
+    }
+    #news .card .forbes img{
+        padding-left: 0px;
+    }
+    #news .card .entrepreneur img{
+        padding-left: 0px;
+    }
+    #news .card .engineer img{
+        padding-left: 0px;
+    }
+
+    #news .card .nature img{
+        padding-left: 0px;
     }
     /* News Section End */
 
@@ -2244,6 +2264,8 @@
         font-size: 15px;
     }
     /* Freelancer Section End  */
+
+    /* Blog Posts Section Start */
     #posts .blog-posts .slick-dots {
         top: 325px;
         margin-top: -40px;
@@ -2281,6 +2303,8 @@
         margin-top: 15px;
         margin-left: 55px;
     }
+    /* Blog Posts Section End */
+
     /* Footer Section Start  */
      #footer .moredetails .service{
         margin-left: 38px;
