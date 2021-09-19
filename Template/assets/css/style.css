@@ -171,7 +171,7 @@
     #how-it-works{
         background: #E5EDEF;
         padding-top: 50px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
     #how-it-works h6{
         font-family: 'Roboto', sans-serif;
@@ -337,6 +337,9 @@
     /* How It Works Section End */
     
     /* Success Stories Section Start  */
+    ul.slick-dots {
+        top: 250px;
+    }
     .slick-slide img {
         width: 350px;
         margin-left: 15px;
@@ -400,7 +403,7 @@
         left: 0;
         right: 0;
         background-color: #055360;
-        opacity: 0.4;
+        opacity: 0.5;
         overflow: hidden;
         width: 0;
         height: 100%;
@@ -451,7 +454,7 @@
     #why-kolabtree{
         background: #E5EDEF;
         padding-top: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 25px;
     }
     #why-kolabtree h6{
         font-family: 'Roboto', sans-serif;
@@ -724,9 +727,12 @@
     /* Customers Section End */
 
     /* News Section Start  */
+    #news ul.slick-dots {
+        top: 235px;
+    }
     #news{
         padding-top: 50px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
         background: #ffffff;
     }
     #news h6{
@@ -739,8 +745,6 @@
     #news .card{
         width: 262px;
         height: 225px;
-        /* padding: 0px 0px;
-        margin: 0px 0px; */
         margin-right: 10px;
     }
     #news .card p{
@@ -800,7 +804,7 @@
     #services{
         background: #E5EDEF;
         padding-top: 50px;
-        padding-bottom: 100px;
+        padding-bottom: 50px;
     }
     #services h6{
         font-family: 'Roboto', sans-serif;
@@ -1586,6 +1590,9 @@
      /* Success Stories Section End  */
 
     /* Why Kolabtree Section Start  */
+    #why-kolabtree {
+        padding-bottom: 0px;
+    }
     #why-kolabtree h6{
         font-size: 34px;
     }
@@ -2070,6 +2077,9 @@
     /* Success Stories Section End  */
 
     /* Why Kolabtree Section Start */
+    #why-kolabtree {
+        padding-bottom: 0px;
+    }
     #why-kolabtree h6{
         font-size: 30px;
     }
