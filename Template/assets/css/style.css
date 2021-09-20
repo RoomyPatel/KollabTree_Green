@@ -2198,19 +2198,28 @@
     }
     #news .card{
         margin: 20px 0px;
+        max-width: 270px;
+        margin-left: 49px;
+        margin-right: 40px;
+    }
+    #news .card .card-footer{
+        margin-top: -30px;
     }
     #news .card .forbes img{
         padding-left: 0px;
+        padding-right: 120px;
     }
     #news .card .entrepreneur img{
         padding-left: 0px;
+        padding-right: 120px;
     }
     #news .card .engineer img{
         padding-left: 0px;
+        padding-right: 120px;
     }
-
     #news .card .nature img{
         padding-left: 0px;
+        padding-right: 120px;
     }
     /* News Section End */
 
